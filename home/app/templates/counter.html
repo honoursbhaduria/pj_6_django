@@ -7,7 +7,7 @@
 {% endif %}
 
 <div class="col-12 pb-3" style="background-color: #c2d6d6; border: 2px groove; border-radius: 10px;">
-  <form action="counter" method="POST">
+  <form action="/counter/" method="POST">
     {% csrf_token %}
     <div class="form-group">
       <label for="text1">Paste your text here</label>

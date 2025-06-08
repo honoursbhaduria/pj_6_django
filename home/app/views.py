@@ -17,6 +17,6 @@ def counter(request):
             }
             )
         else :
-                return render(request, counter.html, {'on' : "active"})
+                return render(request, 'counter.html', {'on' : "active"})
     else:
         return render(request, 'counter.html', {'on' : "active"})
